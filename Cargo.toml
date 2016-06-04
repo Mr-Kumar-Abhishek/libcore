@@ -11,3 +11,6 @@ test = false
 
 [features]
 disable_float = []
+
+[profile.dev]
+panic = "abort"
